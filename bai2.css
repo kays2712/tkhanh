@@ -1,0 +1,94 @@
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    display: block;
+    text-decoration:none ;
+    font-variant:small-caps ;
+    font-size:larger ;
+    padding:0 10px ;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color:orangered ;
+    color:white ;
+}
+.col-25{
+ width:25% ;
+ float:left ;
+}
+ .prod{
+ border-radius:10px ;
+ box-shadow:0 0 5px gray ;
+ margin:5px ;
+ padding:5px ;
+ text-align:center ;
+ position:relative ;
+}
+ .prod>.name{
+ font: variant 12px; ;
+ color:orangered ;
+}
+.prod>.image{
+max-width:98% ;
+height:150px; 
+margin-bottom:10px; 
+}
+.prod>.price{
+ position:absolute ;
+ left:5px ;
+ bottom:5px ;
+ font-family:Impact ;
+ font-size:25px ;
+ color:orange ;
+}
+.prod>.icons{
+ position:absolute ;
+ right:5px ;
+ bottom:5px ;
+ width:25px ;
+}
+.prod>.new-icon{
+ position:absolute ;
+ top:0px ;
+ right:0px;
+}
